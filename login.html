@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+<meta charset="UTF-8">
+<title>EVENT REGISTRATION FORM</title>
+<style>
+body{
+font-family: arial, sans -serif;
+background:#f2f2f2;
+display: flex;
+justify-content: center;
+padding:50px;
+}
+form{
+background: white;
+padding:20px 30px;
+box-shadow:0010px rgba(0,0,0,0,1)
+width:300px;
+}
+input, select, text area{
+width:100%;
+padding:10px;
+margin-bottom:15px;
+border:1px solid #ccc;
+border-radius:5px;
+}
+button{
+background:#4CAF50;
+color: white;
+padding:10px;
+border: none;
+border-radius:5px;
+cursor: pointer;
+width:100%;
+}
+button: hover{
+background:#457049;
+}
+h2{
+text-align: center;
+}
+</style>
+</head>
+<form action="/submit" method="POST">
+<h2>Event Registration</h2>
+<label for="name">Full name</label>
+<input type="text" id="name" name="name" required>
+<label for="email">Email</label>
+<input type="email" id="email" name="email" required>
+<label for="password">Password</label>
+<input type="password" id="password" name="password" required>
+<label for="phone number>Phone Number</label>
+<input type="tel" id="phone number" name="phone number" required>
+<label for="Event">Choose Event</label>
+<option value="coding">Coding</option>
+<option value="debate">Debate</option>
+<option value="music">Music</option>
+<option value="Dance">Dance</option>
+</select>
+<button type="submit">Register</button>
+</form>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
